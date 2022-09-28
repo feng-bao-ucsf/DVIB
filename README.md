@@ -1,6 +1,7 @@
 # DVIB: Disentangled Variational Information Bottleneck for Multiview Representation Learning
 
 DVIB is an information bottleneck method that tries to disentangle multiview data into shared and private representations.
+The implementation is based on the implementation from Multi-view information bottleneck (MIB, Marco Federici, et al, 2020). DVIB used the same wrap function as MIB demonstration. Please refer to https://github.com/mfederici/Multi-View-Information-Bottleneck to run the code. 
 
 ## Overview
 Multiview data combine information from multiple modalities and have potentials to provide more comprehensive features for diverse machine learning tasks. A fundamental question in multiview learning is how additional views provide effective information compared with single view and is it possible to quantitatively identify this addtional information. 
